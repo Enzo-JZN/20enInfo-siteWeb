@@ -49,7 +49,7 @@ This allows students to **practice regularly** and **prepare effectively for exa
 - The real password for all users is:  
   **`bbbb2005`**
 
-### 📊 Database Structure
+### Database Structure
 The database contains **two tables**:
 
 #### `users`
@@ -90,7 +90,7 @@ There are **three types of users**:
 
 ---
 
-## ✨ Application Features
+## Application Features
 - User authentication (login & account creation)
 - Role-based access control
 - Interactive multiple-choice quizzes
