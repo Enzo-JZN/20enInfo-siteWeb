@@ -1,12 +1,12 @@
-# 🎓 EFREI Computer Science Helper
+# EFREI Computer Science Helper
 
-## 📌 Project Name
+## Project Name
 This project is a **web application designed to help EFREI students improve and achieve better grades in computer science**.  
 It is primarily aimed at **first-year (L1) students** and provides access to **past continuous assessments (CCs)** that usually take place every few weeks.
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - Project Context  
 - Database Setup  
 - User Roles  
@@ -16,7 +16,7 @@ It is primarily aimed at **first-year (L1) students** and provides access to **p
 
 ---
 
-## 🧠 Project Context
+## Project Context
 The application displays the different **computer science subjects** on the home page, including:
 
 - Python  
@@ -35,7 +35,7 @@ This allows students to **practice regularly** and **prepare effectively for exa
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 1. Open a **MySQL database**
 2. Adjust the environment variables to match your database configuration:
    - host  
@@ -44,7 +44,7 @@ This allows students to **practice regularly** and **prepare effectively for exa
    - password  
 3. Create the database and insert the values from `SQL_QUERY_DB`
 
-### 🔐 Password Information
+### Password Information
 - Passwords are **already encrypted** in the database
 - The real password for all users is:  
   **`bbbb2005`**
@@ -67,26 +67,26 @@ The database contains **two tables**:
 
 ---
 
-## 👥 User Roles
+## User Roles
 There are **three types of users**:
 
-### 👨‍🎓 efrei student
+### efrei student
 - Access to **all modules**
 - Access to **all continuous assessments**
 
-### 👤 student
+### student
 - Access to **Python module only**
 
-### 🛠️ admin
+### admin
 - Access to **all modules**
 - Can **activate / deactivate modules** for all users
 
-### 🔑 Test Accounts
+### Test Accounts
 | Role | Email | Password |
 |-----|------|---------|
 | admin | bot@ai.com | bbbb2005 |
-| efrei student | enzo@mail.com | bbbb2005 |
-| student | sajin@mail.com | bbbb2005 |
+| efrei student | ***@mail.com | bbbb2005 |
+| student | ***@mail.com | bbbb2005 |
 
 ---
 
@@ -104,7 +104,7 @@ There are **three types of users**:
 
 ---
 
-## 🚀 Launch Backend and Frontend
+## Launch Backend and Frontend
 
 ### Start the application
 1. In the **server** folder:
